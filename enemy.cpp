@@ -119,6 +119,10 @@ void Enemy::move(){
 
 }
 
+//refrences for the A star algo
+
+//https://www.geeksforgeeks.org/a-search-algorithm/
+//https://www.youtube.com/watch?v=SivSy3K4RsI
 
 void Enemy::findpath(int startingRow, int startingCol, int finalRow, int finalCol)
 {
